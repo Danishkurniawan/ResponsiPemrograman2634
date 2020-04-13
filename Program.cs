@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ResponsiPemrograman2606
+namespace ResponsiPemrograman2634
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Karyawan karyawan1 = new Karyawan("190302123", "Paijo", 3000000);
-            Karyawan karyawan2 = new Karyawan("190302124", "Jono", 2000000);
+            Karyawan karyawan1 = new Karyawan("190110002", "Danish", 2200000);
+            Karyawan karyawan2 = new Karyawan("190110207", "Alex", 2600000);
             Console.WriteLine("NIK/Nama                   Gaji Bulanan");
             Console.WriteLine("---------------------------------------");
             karyawan1.DataKaryawan();
