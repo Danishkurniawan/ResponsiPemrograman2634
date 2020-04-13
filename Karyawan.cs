@@ -8,12 +8,14 @@ namespace ResponsiPemrograman2634
 {
     class Karyawan
     {
-        public string Nim { get; set; }
+        public string No { get; set; }
+        public string Nik { get; set; }
         public string Nama { get; set; }
         public int GajiBulanan { get; set; }
-        public Karyawan(string nim, string nama, int gajibulanan)
+        public Karyawan(string no, string nik, string nama, int gajibulanan)
         {
-            Nim = nim;
+            No = no;
+            Nik = nik;
             Nama = nama;
             if (gajibulanan < 0)
             {
@@ -27,11 +29,11 @@ namespace ResponsiPemrograman2634
 
         public void DataKaryawan()
         {
-            Console.WriteLine(" {0} {1}    {2}", Nim, Nama, GajiBulanan);
+            Console.WriteLine("{0} {1} {2} {3}", No.PadRight(2), Nik.PadRight(11), Nama.PadRight(10), GajiBulanan);
         }
         public void NaikGaji()
         {
-            Console.WriteLine(" {0} {1}    {2}", Nim, Nama, (GajiBulanan * 230 / 310));
+            Console.WriteLine("{0} {1} {2} {3}", No.PadRight(2), Nik.PadRight(11), Nama.PadRight(10), (GajiBulanan * 135 / 220));
         }
     }
 }
