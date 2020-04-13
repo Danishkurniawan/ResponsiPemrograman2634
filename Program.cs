@@ -10,14 +10,14 @@ namespace ResponsiPemrograman2634
     {
         static void Main(string[] args)
         {
-            Karyawan karyawan1 = new Karyawan("190110002", "Danish", 2200000);
-            Karyawan karyawan2 = new Karyawan("190110207", "Alex", 2600000);
-            Console.WriteLine("NIK/Nama                   Gaji Bulanan");
-            Console.WriteLine("---------------------------------------");
+            Karyawan karyawan1 = new Karyawan("1.", "190110021", "Danish", 2200000);
+            Karyawan karyawan2 = new Karyawan("2.", "190112311", "Alex", 2600000);
+            Console.WriteLine("No NIK/Nama               Gaji Bulanan");
+            Console.WriteLine("--------------------------------------");
             karyawan1.DataKaryawan();
             karyawan2.DataKaryawan();
             Console.WriteLine();
-            Console.WriteLine("Asyiiiiik kenaikan gaji 10 %");
+            Console.WriteLine("Asyiiiiik kenaikan gaji 10 % Nichh");
             Console.WriteLine();
             karyawan1.NaikGaji();
             karyawan2.NaikGaji();
