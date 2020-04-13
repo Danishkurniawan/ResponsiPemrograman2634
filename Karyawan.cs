@@ -31,7 +31,7 @@ namespace ResponsiPemrograman2634
         }
         public void NaikGaji()
         {
-            Console.WriteLine(" {0} {1}    {2}", Nim, Nama, (GajiBulanan * 230 / 300));
+            Console.WriteLine(" {0} {1}    {2}", Nim, Nama, (GajiBulanan * 230 / 310));
         }
     }
 }
